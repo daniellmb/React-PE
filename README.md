@@ -1,6 +1,7 @@
 # Progressive Enhancement with ReactJS.NET
 
 [Live Demo!](http://reactpe.apphb.com)
+--------------------------------------
 
   - Adaptive Rendering: specialized templates for mobile and desktop devices.
   - Responsive Web Design: optimized viewing experience across a wide range of devices.
