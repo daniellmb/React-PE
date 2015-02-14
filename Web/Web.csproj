@@ -189,6 +189,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\Comments\RawCommentsData.xml" />
+    <Content Include="ClearScriptV8-32.dll" />
+    <Content Include="ClearScriptV8-64.dll" />
+    <Content Include="v8-ia32.dll" />
+    <Content Include="v8-x64.dll" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
