@@ -1,0 +1,19 @@
+﻿@{
+    // web socket (used at runtime)
+    var function = "$.hubConnection('" + Url.Content("~/") + "signalr', { useDefaultPath: false })";
+}
+@Html.React("CommentPanel", new
+{
+    title = "Comments",
+    body = "What do you think of this progressive enhancement with ReactJS.NET demo?",
+    // set form action (used when no JS)
+    action = Url.Action("Create", "Comment"),
+    // server side data
+    data = Model,
+    // max comments to display at a time
+    limit = @ViewBag.Limit,
+    // encode string as a "raw" value
+    conn = new Newtonsoft.Json.Linq.JRaw(function),
+    // fake authenticated user avatar
+    author = "//lorempixel.com/35/35/people/" + new Random().Next(0, 10)
+})

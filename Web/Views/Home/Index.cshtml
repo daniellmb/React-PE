@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Web.Models.Comment>
+@{
+    ViewBag.Title = "Progressive Enhancement with ReactJS.NET";
+}
+
+<div class="row marketing">
+    <div class="col-lg-6">
+        <p>
+            <ul>
+                <li><strong>Adaptive Rendering:</strong> specialized templates for mobile and desktop devices.</li>
+                <li><strong>Responsive Web Design:</strong> optimized viewing experience across a wide range of devices.</li>
+                <li><strong>Progressive Enhancement:</strong> by rendering the app server-side then using JS for updates.</li>
+                <li><strong>Optimistic Updates:</strong> where the UI is updated even before the data is saved to the DB.</li>
+                <li><strong>Real-time Data:</strong> changes are instantly streamed to everyone.</li>
+                <li><strong>ECMAScript 6:</strong> syntax and features from ES6.</li>
+            </ul>
+        </p>
+        <p class="text-center">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Get the Code</a>
+        </p>
+    </div>
+
+    <div class="col-lg-6">
+        @Html.Partial("Components/_CommentPanel")
+        @section scripts {
+            @Scripts.Render("~/bundles/react")
+            @Scripts.Render("~/bundles/comments")
+            @Html.ReactInitJavaScript()
+        }
+    </div>
+</div>

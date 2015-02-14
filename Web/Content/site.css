@@ -1,0 +1,11 @@
+﻿.media-list {
+  padding: 0 10px;
+  max-height: 300px;
+  overflow: auto;
+}
+
+.media-object {
+  width: 35px;
+  height: 35px;
+  border-radius:50%;
+}
