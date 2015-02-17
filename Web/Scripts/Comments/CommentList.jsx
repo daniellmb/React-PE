@@ -2,17 +2,17 @@
 
   componentDidUpdate() {
     // scroll to the top of the list
-	this.refs.list.getDOMNode().scrollTop = 0;
+  this.refs.list.getDOMNode().scrollTop = 0;
   },
   
   render() {
   
-	// quick data check
-	if (!this.props.data) {
-		return;
-	}
-		
-	var commentNodes = this.props.data.map(function (comment) {
+  // quick data check
+  if (!this.props.data) {
+    return;
+  }
+    
+  var commentNodes = this.props.data.map(function (comment) {
       return (
         <Comment author={comment.Author}>
           {comment.Text}

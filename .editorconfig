@@ -1,0 +1,25 @@
+; Requires teh EditorConfig plugin:
+; https://visualstudiogallery.msdn.microsoft.com/c8bccfe2-650c-4b42-bc5c-845e21f96328
+; Source code: https://github.com/editorconfig/editorconfig-visualstudio
+
+; Top-most EditorConfig file
+root = true
+
+; Unix-style newlines
+[*]
+end_of_line = LF
+
+; 4-column space indentation
+[*.cs]
+indent_style = space
+indent_size = 4
+
+; 2-column tab indentation
+[*.js]
+indent_style = tab
+indent_size = 2
+
+; 2-column tab indentation
+[*.jsx]
+indent_style = tab
+indent_size = 2
