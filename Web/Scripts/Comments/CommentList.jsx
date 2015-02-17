@@ -7,12 +7,12 @@
   
   render() {
   
-  // quick data check
-  if (!this.props.data) {
-    return;
-  }
+    // quick data check
+    if (!this.props.data) {
+      return;
+    }
     
-  var commentNodes = this.props.data.map(function (comment) {
+    var commentNodes = this.props.data.map(function (comment) {
       return (
         <Comment author={comment.Author}>
           {comment.Text}
