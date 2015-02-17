@@ -2,6 +2,8 @@
 
 ## An Experiment in Progressive Enhancement
 
+![Annotated Screenshot](http://reactpe.apphb.com/Content/isomorphic.png)
+
 [Live Demo!](http://reactpe.apphb.com)
 --------------------------------------
 
