@@ -16,10 +16,10 @@ indent_size = 4
 
 ; 2-column tab indentation
 [*.js]
-indent_style = tab
+indent_style = space
 indent_size = 2
 
 ; 2-column tab indentation
 [*.jsx]
-indent_style = tab
+indent_style = space
 indent_size = 2

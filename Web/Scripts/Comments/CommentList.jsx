@@ -2,7 +2,7 @@
 
   componentDidUpdate() {
     // scroll to the top of the list
-  this.refs.list.getDOMNode().scrollTop = 0;
+    this.refs.list.getDOMNode().scrollTop = 0;
   },
   
   render() {
