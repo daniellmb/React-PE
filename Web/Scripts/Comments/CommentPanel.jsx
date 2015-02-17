@@ -1,4 +1,5 @@
-﻿var CommentPanel = React.createClass({  
+﻿var CommentPanel = React.createClass({
+
   getHub() {
     return this.props.conn.createHubProxy('commentHub');
   },
@@ -45,7 +46,7 @@
   getInitialState() {
     return {
       data: this.props.data,
-        connection: ''
+      connection: ''
     };
   },
   
