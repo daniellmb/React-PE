@@ -1,4 +1,6 @@
-# Progressive Enhancement with ReactJS.NET
+# Isomorphic JavaScript with ReactJS.NET
+
+## An Experiment in Progressive Enhancement
 
 [Live Demo!](http://reactpe.apphb.com)
 --------------------------------------
